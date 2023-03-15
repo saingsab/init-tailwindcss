@@ -1,0 +1,11 @@
+{
+  "name": "PoolTogether-Governance",
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
